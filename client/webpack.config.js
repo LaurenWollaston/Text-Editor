@@ -15,7 +15,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './index.html',
+      template: './dist/index.html',
       title: 'TODOs List'
     }),
     new GenerateSW({
