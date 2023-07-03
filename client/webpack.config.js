@@ -15,8 +15,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './dist/index.html',
-      title: 'TODOs List'
+      template: './index.html',
+      title: 'Just Another Text Editor'
     }),
     new GenerateSW({
       clientsClaim: true,
