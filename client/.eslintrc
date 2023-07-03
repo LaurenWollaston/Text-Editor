@@ -12,3 +12,4 @@
     "no-restricted-globals": "off"
   }
 }
+// I am NOT using a linter for a individual project. 

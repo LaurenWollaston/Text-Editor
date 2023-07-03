@@ -6,8 +6,8 @@ const { GenerateSW } = require('workbox-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-    main: './Client/src/js/index.js',
-    install: './Client/src/js/install.js'
+    main: './src/js/index.js',
+    install: './src/js/install.js'
   },
   output: {
     filename: '[name].bundle.js',
@@ -32,7 +32,7 @@ module.exports = {
       publicPath: './',
       icons: [
         {
-          src: path.resolve(__dirname, 'Client/src/images/logo.png'),
+          src: path.resolve(__dirname, './src/images/logo.png'),
           sizes: [96, 128, 192, 256, 384, 512],
           destination: path.join('assets', 'icons'),
         },
